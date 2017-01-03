@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    position: relative;
+    .side-menu {
+        position: absolute;
+        top: 0;
+        left: -250px;
+        width: 250px;
+        height: 100vh;
+        background: #AAA;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+    }
+    .transition {
+        left: 0px;
+    }
+
+}
